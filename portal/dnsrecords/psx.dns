@@ -1,0 +1,25 @@
+;
+;  Database file go.dns for Default zone scope in zone psx.
+;      Zone version:  5
+;
+
+@                       IN  SOA psx. hostmaster. (
+                        		5            ; serial number
+                        		900          ; refresh
+                        		600          ; retry
+                        		86400        ; expire
+                        		3600       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	psx.
+
+;
+;  Zone records
+;
+
+@                       A	13.211.162.247
+home.psx.			A	13.211.162.247
+psx.			A	13.211.162.247

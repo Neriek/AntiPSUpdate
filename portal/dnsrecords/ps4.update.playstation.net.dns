@@ -1,0 +1,33 @@
+;
+;  Database file ps4.update.playstation.net.dns for Default zone scope in zone ps4.update.playstation.net.
+;      Zone version:  12
+;
+
+@                       IN  SOA atlas. hostmaster. (
+                                        12           ; serial number
+                                        900          ; refresh
+                                        600          ; retry
+                                        86400        ; expire
+                                        3600       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS      atlas.
+
+;
+;  Zone records
+;
+
+fau01                   A       13.211.162.247
+fcn01                   A       13.211.162.247
+feu01                   A       13.211.162.247
+fjp01                   A       13.211.162.247
+fkr01                   A       13.211.162.247
+fmx01                   A       13.211.162.247
+fru01                   A       13.211.162.247
+fsa01                   A       13.211.162.247
+ftw01                   A       13.211.162.247
+fuk01                   A       13.211.162.247
+fus01                   A       13.211.162.247

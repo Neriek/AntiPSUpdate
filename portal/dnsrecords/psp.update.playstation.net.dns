@@ -1,0 +1,33 @@
+;
+;  Database file ps3.update.playstation.net.dns for Default zone scope in zone ps3.update.playstation.net.
+;      Zone version:  12
+;
+
+@                       IN  SOA atlas. hostmaster. (
+                                        12           ; serial number
+                                        900          ; refresh
+                                        600          ; retry
+                                        86400        ; expire
+                                        3600       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS      atlas.
+
+;
+;  Zone records
+;
+
+fj01                   A       13.211.162.247
+fu01                   A       13.211.162.247
+fe01                   A       13.211.162.247
+fo01a                   A       13.211.162.247
+fo01b                   A       13.211.162.247
+fo01c                   A       13.211.162.247
+fo01d                   A       13.211.162.247
+fo01e                   A       13.211.162.247
+fo01f                   A       13.211.162.247
+fo01g                   A       13.211.162.247
+fo01h                   A       13.211.162.247

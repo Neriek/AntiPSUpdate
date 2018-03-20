@@ -1,0 +1,26 @@
+;
+;  Database file go.dns for Default zone scope in zone go.
+;      Zone version:  5
+;
+
+@                       IN  SOA atlas. hostmaster. (
+                        		5            ; serial number
+                        		900          ; refresh
+                        		600          ; retry
+                        		86400        ; expire
+                        		3600       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	atlas.
+
+;
+;  Zone records
+;
+
+@                       A	212.47.229.76
+go.			A	212.47.229.76
+beta.go.                    A	212.47.229.76
+
