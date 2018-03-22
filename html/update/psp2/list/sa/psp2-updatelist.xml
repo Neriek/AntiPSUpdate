@@ -1,0 +1,11 @@
+<update_data_list>
+<region id="sa">
+<np level0_system_version="03.600.000" level1_system_version="03.600.000" level2_system_version="03.600.000" map="03.600.000"/>
+<np_d level0_system_version="03.600.000" level1_system_version="03.600.000" level2_system_version="03.600.000" map="03.600.000"/>
+<version system_version="03.600.000" label="3.60 (変革 Compatible)">
+<update_data update_type="full">
+<image size="0">http://13.55.12.77/pup/PSP2UPDAT.PUP</image>
+</update_data>
+</version>
+</region>
+</update_data_list>
